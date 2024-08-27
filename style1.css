@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition-duration: 0.5s;
 }
 .students1 {
   background-color: #3a3a3a;
@@ -33,6 +34,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition-duration: 0.5s;
 }
 body {
   display: flex;
@@ -40,4 +42,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #2f2f2fc6;
+}
+.students:hover, .students1:hover {
+  border:5px solid #ff7b7b;
 }
